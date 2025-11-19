@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curriculum Vitae — Nama Anda</title>
+  <meta name="description" content="CV Kreatif — Nama Anda. Profil, ringkasan, pengalaman, pendidikan, dan keterampilan." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="profile reveal" id="profile">
+      <div class="profile-left">
+        <div class="avatar" aria-hidden="true">
+          <!-- Placeholder avatar -->
+          <svg viewBox="0 0 120 120" class="avatar-illustration" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Avatar placeholder">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1">
+                <stop offset="0%" stop-color="#ff2d95"/>
+                <stop offset="100%" stop-color="#ff8ccf"/>
+              </linearGradient>
+            </defs>
+            <rect rx="20" width="120" height="120" fill="#111"/>
+            <circle cx="60" cy="44" r="22" fill="url(#g)"/>
+            <rect x="26" y="70" rx="10" width="68" height="28" fill="#222"/>
+          </svg>
+        </div>
+        <div class="basic-info">
+          <h1 class="name">Nama Anda</h1>
+          <p class="role">Desainer & Front-end Developer</p>
+          <div class="contact">
+            <a href="mailto:email@domain.com" class="contact-item" aria-label="Email">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 8l9 6 9-6"/><path d="M21 8v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8"/></svg>
+              email@domain.com
+            </a>
+            <a href="#" class="contact-item" aria-label="Lokasi">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 21s8-5.5 8-11a8 8 0 1 0-16 0c0 5.5 8 11 8 11z"/><circle cx="12" cy="10" r="2"/></svg>
+              Kota, Negara
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="profile-right">
+        <nav class="quick-links">
+          <a href="#summary">Ringkasan</a>
+          <a href="#experience">Pengalaman</a>
+          <a href="#education">Pendidikan</a>
+          <a href="#skills">Keterampilan</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="summary" class="section reveal">
+      <h2 class="section-title">Ringkasan</h2>
+      <div class="card">
+        <p>
+          Saya adalah desainer & front-end developer dengan pengalaman dalam merancang antarmuka yang elegan dan bertanggung jawab
+          terhadap implementasi interaktif menggunakan HTML, CSS, dan JavaScript. Fokus pada pengalaman pengguna, detail visual, dan
+          performa. Mencari peran yang menantang di mana estetika dan fungsionalitas berjalan beriringan.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <h2 class="section-title">Pengalaman Kerja</h2>
+
+      <article class="job card">
+        <header class="job-head">
+          <div>
+            <h3 class="job-title">Senior Front-end Developer</h3>
+            <p class="job-company">PT. Kreatif Digital — <span class="muted">2021 — Sekarang</span></p>
+          </div>
+          <div class="job-duration">Jakarta</div>
+        </header>
+        <ul class="job-list">
+          <li>Mendesain dan mengimplementasikan UI responsif menggunakan React & CSS modul.</li>
+          <li>Meningkatkan performa halaman landing hingga <strong>40%</strong> dengan optimasi aset dan lazy-loading.</li>
+          <li>Bekerja lintas tim untuk mengintegrasikan desain dengan sistem back-end.</li>
+        </ul>
+      </article>
+
+      <article class="job card">
+        <header class="job-head">
+          <div>
+            <h3 class="job-title">UI/UX Designer</h3>
+            <p class="job-company">Studio Pixel — <span class="muted">2018 — 2021</span></p>
+          </div>
+          <div class="job-duration">Bandung</div>
+        </header>
+        <ul class="job-list">
+          <li>Menghasilkan prototype high-fidelity dan desain visual untuk aplikasi mobile dan web.</li>
+          <li>Berkolaborasi erat dengan product manager untuk memastikan pengalaman pengguna yang konsisten.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education" class="section reveal">
+      <h2 class="section-title">Pendidikan</h2>
+      <div class="card education-list">
+        <div class="education-item">
+          <h3>Sarjana Desain Komunikasi Visual</h3>
+          <p class="muted">Universitas Contoh — 2014 — 2018</p>
+          <p>Fokus pada desain antarmuka, tipografi, dan prinsip desain interaksi.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills reveal">
+      <h2 class="section-title">Keterampilan</h2>
+      <div class="card skills-grid">
+        <div class="skill">
+          <div class="skill-head">
+            <span>HTML & CSS</span>
+            <span class="skill-value">95%</span>
+          </div>
+          <div class="progress" aria-hidden="true">
+            <div class="progress-fill" style="--level:95%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>JavaScript</span>
+            <span class="skill-value">90%</span>
+          </div>
+          <div class="progress" aria-hidden="true">
+            <div class="progress-fill" style="--level:90%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>React</span>
+            <span class="skill-value">85%</span>
+          </div>
+          <div class="progress" aria-hidden="true">
+            <div class="progress-fill" style="--level:85%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-head">
+            <span>UI/UX Design</span>
+            <span class="skill-value">88%</span>
+          </div>
+          <div class="progress" aria-hidden="true">
+            <div class="progress-fill" style="--level:88%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer reveal">
+      <p>© <span id="year"></span> Nama Anda — Crafted with care • Hitam & Pink aesthetic</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
